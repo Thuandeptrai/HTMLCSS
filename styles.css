@@ -60,7 +60,7 @@ p {
   /* soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner 1 */
 
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background: url("./soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner\ 1.png");
 }
 .Title {
@@ -176,4 +176,8 @@ p {
   height: 200px;
    margin-right: 20px;
 
+}
+.cardWithInfo{
+  width: 590px;
+  height: 210px;
 }
