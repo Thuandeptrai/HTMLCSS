@@ -66,9 +66,8 @@ p {
 }
 .bodyDiv {
   /* soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner 1 */
-
   width: 100%;
-  height: 200vh;
+  min-height: 100vh;
   background: url("./soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner\ 1.png");
 }
 .Title {
@@ -234,7 +233,6 @@ p {
 }
 .cardWithInfoBottom {
   width: 400px;
-  height: 210px;
   display: block;
   background: #e0f4ff;
   border-radius: 20px;
@@ -279,7 +277,6 @@ p {
   line-height: 21px;
   text-align: justify;
   margin-left: 2px;
-  height: 105px;
   margin-right: 2px;
   color: #000000;
 }
