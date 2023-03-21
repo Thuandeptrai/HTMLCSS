@@ -1,0 +1,99 @@
+/* styles.scss */
+
+/* Variables */
+
+/* Global styles */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Component styles */
+.left {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #2cbcec;
+}
+.rightBanner{
+  width: 382px;
+  height: 345px;
+  background: linear-gradient(180deg, #2CBCEC 0%, #E0F4FF 100%);
+border-radius: 34px;
+}
+.right {
+  text-align: center;
+
+  padding-top: 4px;
+  margin-right: 15px;
+  width: 147px;
+  height: 39px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #2cbcec 0%, #1d7dff 100%);
+  border-radius: 31px;
+}
+.bodyDiv {
+  /* soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner 1 */
+
+  width: 100%;
+  height: 100vh;
+  background: url("./soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner\ 1.png");
+}
+.Title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #2cbcec;
+}
+.bg {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  min-width: 1000px;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.nebula {
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .nebula {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 -150px 0 -150px;
+  }
+  .left{
+    font-size: 20px
+  }
+}
