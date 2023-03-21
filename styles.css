@@ -162,3 +162,18 @@ p {
 
   color: #dff7ff;
 }
+.ulList li{
+  list-style-image: url(Polygon\ 1.svg);
+  max-width: 400px;
+}
+
+.rowForFlex{
+
+
+}
+.rowForFlex img{
+  width: 200px;
+  height: 200px;
+   margin-right: 20px;
+
+}
