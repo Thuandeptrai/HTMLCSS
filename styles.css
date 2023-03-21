@@ -35,11 +35,11 @@ p {
 
   color: #2cbcec;
 }
-.rightBanner{
-  width: 382px;
+.rightBanner {
+  width: 420px !important;
   height: 345px;
-  background: linear-gradient(180deg, #2CBCEC 0%, #E0F4FF 100%);
-border-radius: 34px;
+  background: linear-gradient(180deg, #2cbcec 0%, #e0f4ff 100%);
+  border-radius: 34px;
 }
 .right {
   text-align: center;
@@ -92,26 +92,46 @@ border-radius: 34px;
     width: 100%;
     overflow: hidden;
   }
-  .left{
-    font-size: 20px
+  .left {
+    font-size: 20px;
   }
 }
-.titleBody{
+.titleBody {
   font-size: 24px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
 }
-.boxBody{
+.boxBody {
   width: 72px;
   height: 72px;
   background: #000000;
-border-radius: 20px;
-margin-right: 20px;
+  border-radius: 20px;
+  margin-right: 18px;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: white;
+}
+.inputSite{
+  padding-left: 3px;
+  margin-top: 5px;
+  border-radius: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 342px;
+  height: 40px;
+  border: none;
+}
+.btnBuy{
+  background: #FF1D1D;
+border-radius: 34px;
+width: 154px;
+height: 40px;
+border: none;
 
-color: ;
 }
