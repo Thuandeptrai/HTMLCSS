@@ -1,4 +1,8 @@
 /* styles.scss */
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Black.ttf);
+}
 
 /* Variables */
 
@@ -133,5 +137,14 @@ border-radius: 34px;
 width: 154px;
 height: 40px;
 border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 
 }
