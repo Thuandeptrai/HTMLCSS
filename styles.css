@@ -121,8 +121,8 @@ p {
   font-weight: bold;
   color: white;
 }
-.inputSite{
-  padding-left: 3px;
+.inputSite {
+  padding-left: 5px;
   margin-top: 5px;
   border-radius: 32px;
   margin-left: auto;
@@ -130,21 +130,35 @@ p {
   width: 342px;
   height: 40px;
   border: none;
+  text-indent: 10px;
 }
-.btnBuy{
-  background: #FF1D1D;
-border-radius: 34px;
-width: 154px;
-height: 40px;
-border: none;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+.btnBuy {
+  background: #ff1d1d;
+  border-radius: 34px;
+  width: 154px;
+  height: 40px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.leftBanner {
+  width: 275px;
+  height: 31px;
+  background: #2cbcec;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
 
+  color: #dff7ff;
 }
